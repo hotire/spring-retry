@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.*;
 
 @SpringBootTest
@@ -24,7 +25,7 @@ class RetryServiceTest {
 
         // when
         when(messageClient.send(message)).thenThrow(IllegalArgumentException.class);
-        Assertions.assertThrows(IllegalArgumentException.class, () -> retryService.send(message));
+        assertThrows(IllegalArgumentException.class, () -> retryService.send(message));
 
 
         // then
