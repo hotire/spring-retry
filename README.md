@@ -8,7 +8,13 @@
 
 네트워크와 같은 일시적인 장애 상황에 사용하면 유용하다. :)
 
+## Annotation
 
+AOP 기반 Retry / Recover를 제공한다.
+
+### Retry
+
+### Recover
 
 
 
