@@ -16,7 +16,21 @@ AOP 기반 Retry / Recover를 제공한다.
 
 ### Retry
 
+```java
+@Retryable(
+            value = IllegalArgumentException.class,
+            maxAttempts = 3,
+            backoff = @Backoff(delay = 3000)
+)
+```
 
+@Retryable 어노테이션을 통해 retry를 한다. 
+
+- value : 재시도할 Exception을 정의한다. 
+
+- maxAttempts : 재시도 횟수 지정
+
+- backoff : 딜레이 지정
 
 
 ### Recover
