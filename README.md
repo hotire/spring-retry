@@ -12,7 +12,12 @@
 
 AOP 기반 Retry / Recover를 제공한다.
 
+- @EnableRetry를 붙여 자동설정한다. 
+
 ### Retry
+
+
+
 
 ### Recover
 
