@@ -39,7 +39,7 @@ AOP 기반 Retry / Recover를 제공한다.
 
 ### Contribute
 
-https://github.com/spring-projects/spring-retry
+https://github.com/spring-projects/spring-retry/pull/255
 
 
 
