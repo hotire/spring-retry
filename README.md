@@ -39,7 +39,9 @@ AOP 기반 Retry / Recover를 제공한다.
 
 ### Contribute
 
-https://github.com/spring-projects/spring-retry/pull/255
+- https://github.com/spring-projects/spring-retry/pull/255
+- https://blog.naver.com/gngh0101/222712723125
+
 
 
 
